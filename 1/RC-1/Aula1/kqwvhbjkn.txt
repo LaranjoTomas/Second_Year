@@ -1,0 +1,23 @@
+ARP Request 
+
+  Ethernet header
+    Origin address: HP_c1:e3:97
+    Destination Address: Cisco_18:9c:78
+
+  ARP packet
+    Origin MAC address: HP_c1:e3:97
+    Origin IP address: 192.1.1.7
+    Destination MAC address: Cisco_18:9c:78
+    Destination IP address: 192.1.1.17
+
+ARP Response 
+
+  Ethernet header
+    Origin address: Cisco_18:9c:78
+    Destination Address: HP_c1:e3:97
+    
+  ARP packet
+    Origin MAC address: Cisco_18:9c:78
+    Origin IP address: 192.1.1.17
+    Destination MAC address: HP_c1:e3:97
+    Destination IP address: 192.1.1.7

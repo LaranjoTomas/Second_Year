@@ -1,0 +1,50 @@
+#goBackLink a {
+    text-decoration: none;
+    color: black;
+}
+
+#goBackLink a:hover {
+    text-decoration: underline;
+}
+
+#gameImage {
+    position: relative;
+    left: -1;
+}
+
+#gameInfo {
+    color: black;
+    font-size: 18px;
+}
+
+.box {
+    position: relative;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: none;
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    margin: 0 1rem 1rem 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    transition: all 0.4s ease-in-out;
+}
+
+.box img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa-star-half-full {
+    color: orange;
+}
+
+.checked {
+    color: orange;
+}

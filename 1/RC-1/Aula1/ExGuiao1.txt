@@ -1,0 +1,166 @@
+1.	
+   1.1. 
+	I) 7
+	
+	II) Default Gateway: 192.168.100.1
+
+   1.2. 
+	I) Machine Name(Host Name): LAPTOP-QQV58PCE
+	
+	II) Ethernet adapter Ethernet: 38-F3-AB-A4-49-FE
+	    Ethernet adapter VirtualBox Host-Only Network: 0A-00-27-00-00-09
+	    Wireless LAN adapter Local Area Connection* 1: 76-4C-A1-D8-FF-71
+	    Wireless LAN adapter Local Area Connection* 2: F6-4C-A1-D8-FF-71
+	    Wireless LAN adapter Wi-Fi: 74-4C-A1-D8-FF-71
+	    Ethernet adapter Bluetooth Network Connection: 74-4C-A1-D8-FF-72
+	    Ethernet adapter vEthernet (BluestacksNxt): 00-15-5D-2B-92-80
+	
+	III) DNS Server IP: 192.168.100.1
+
+
+2.
+   2.1.
+	www.ua.pt - 193.136.173.58
+
+	ua.pt - 193.136.172.173
+          	193.136.172.175
+          	193.136.172.174
+
+	www.tvi.iol.pt - 193.126.240.138
+
+	www.sapo.pt - 213.13.146.142
+
+	www.tsf.pt - 148.69.168.39
+         	     148.69.168.40
+         	     148.69.168.41
+         	     148.69.168.38
+
+	www.antena3.pt - 94.46.160.176
+
+	www.rtp.pt - 151.101.134.192
+
+	www.publico.pt - 13.226.253.58
+         		 13.226.253.94
+         		 13.226.253.30
+        		 13.226.253.40
+
+ 	www.google.com - 2a00:1450:4003:80c::2004
+			 142.250.184.164
+
+	www.google.pt - 2a00:1450:4003:80c::2003
+			142.250.184.163
+
+	www.google.es - 2a00:1450:4003:807::2003
+			142.250.178.163
+
+	www.google.fr - 2a00:1450:4003:80e::2003
+			142.250.200.99
+
+   2.2.
+	193.136.173.58 - lvs-ng.ua.pt
+	193.137.55.13 - www.up.pt
+	157.240.212.35 - edge-star-mini-shv-01-lis1.facebook.com
+	31.13.66.174 - instagram-p42-shv-01-iad3.fbcdn.net
+
+   2.3. 
+	193.137.55.13 - www.up.pt/portal/en/
+	
+	157.240.212.35 - www.facebook.com
+
+3.
+   3.1. 
+	www.ua.pt - Aveiro, Portugal (0Km) -  Minimum = 3ms, Maximum = 13ms, Average = 9ms
+
+	www.up.pt - Porto, Portugal (~60Km) -  Minimum = 11ms, Maximum = 17ms, Average = 15ms
+
+	www.fc.ul.pt - Lisboa, Portugal (~220Km) -  Minimum = 9ms, Maximum = 20ms, Average = 15ms
+
+	www.utad.pt - Vila Real, Portugal (~160Km) - Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)
+	
+	www.uevora.pt - Évora, Portugal (~250Km) -  Minimum = 15ms, Maximum = 250ms, Average = 76ms
+
+	www.uam.es - Madrid, Espanha (~420Km) - Minimum = 187ms, Maximum = 2521ms, Average = 801ms
+
+	www.univ-paris8.fr - Paris, França (~1260Km) - Timed Out
+
+	web.mit.edu - EUA (~5100Km) - Minimum = 197ms, Maximum = 780ms, Average = 439ms
+
+	www.zju.edu.cn - China (~7200Km) - Minimum = 446ms, Maximum = 824ms, Average = 591ms
+
+	www.unisa.ac.za - África do Sul (~8750Km) -  Minimum = 241ms, Maximum = 779ms, Average = 474ms
+	
+	www.adelaide.edu.au - Austrália (~17100Km) - Minimum = 302ms, Maximum = 618ms, Average = 458ms
+	
+	www.tanzania.go.tz - Tanzânia (~3100Km) - Minimum = 279ms, Maximum = 909ms, Average = 709ms
+
+	
+
+4.
+   4.1.
+	www.ua.pt - Aveiro, Portugal (0Km) -  5 - 10.1.0.101
+
+	www.up.pt - Porto, Portugal (~60Km) -  11 - 194.210.6.205
+
+	www.fc.ul.pt - Lisboa, Portugal (~220Km) - 13 - Request timed out
+
+	www.utad.pt - Vila Real, Portugal (~160Km) - 30 - Request timed ou
+ 	
+	www.uevora.pt - Évora, Portugal (~250Km) -  13 - 193.137.219.82
+
+	www.uam.es - Madrid, Espanha (~420Km) - 16 - 193.145.14.30
+
+	www.univ-paris8.fr - Paris, França (~1260Km) - 30 - Request timed out
+
+	web.mit.edu - EUA (~5100Km) - 15 - 62.40.98.180
+
+	www.zju.edu.cn - China (~7200Km) - 20 - 62.115.179.78
+
+	www.unisa.ac.za - África do Sul (~8750Km) - 22 - 155.232.1.97
+	
+	www.adelaide.edu.au - Austrália (~17100Km) - 23 - Request timed out
+
+5.
+   5.1.
+	10.1.0.101 - IANA - Los Angeles
+	
+	194.210.6.205 - RIPE - Amsterdam
+	
+	193.137.219.82 - RIPE - Amsterdam
+
+	193.145.14.30 - RIPE - Amsterdam 
+	
+	62.40.98.180 - RIPE - Amsterdam
+
+	62.115.179.78 - RIPE - Amsterdam 
+	
+	155.232.1.97 - AFRINIC - Ebene 
+
+
+6.
+   6.1.
+	10.1.0.101 - Private - Private 
+	
+	194.210.6.205 - Portugal - Lisboa
+
+	193.137.219.82 - Portugal - Évora 
+
+	193.145.14.30 - SPAIN - Huddinge
+	
+	62.40.98.180 - EUROPEAN UNION
+	
+	62.115.179.78 - United KingDom 
+	
+ 	155.232.1.97 - South Africa
+	
+
+
+	
+	
+
+
+
+
+
+
+
+

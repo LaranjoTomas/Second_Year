@@ -1,0 +1,19 @@
+
+MAC Address Table
+VID	Vlan Name	MAC Address	Port	Type
+1	default	00-13-C3-8F-39-D2	2	Dynamic
+1	default	00-1C-F0-A8-BD-2F	CPU	Self
+1	default	38-F3-AB-A4-49-FE	1	Dynamic
+
+
+Default aging time:300
+
+It has come to our attentio that our dearest router, when attempting to ping the most prestigous server of all, cannot find the server by itself.
+Henceforth, the router, in it's all entire inteligence, floods all open ports, waiting for a reply. While your mother's reply is instant, the connected pc also receives a reply request that it cannot answer and should not receive.
+
+
+Pergunta sobre fragmentação que poderá sair no teste:
+
+1478 + 14 + 20 + 8
+1480 + 14 + 20
+148 + 14 + 20 = 182bites, último fragmento.

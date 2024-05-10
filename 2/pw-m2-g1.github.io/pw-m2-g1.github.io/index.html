@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta content="AGN - Aveiro Games Network" property="og:title" />
+		<meta content="O AGN é o teu site para reviews sobre videojogos." property="og:description" />
+		<meta content="https://pw-m2-g1.github.io/" property="og:url" />
+		
+		<meta content="#5252ff" data-react-helmet="true" name="theme-color" />
+
+		<title>AGN - Aveiro Games Network</title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="./css/index.css" rel="stylesheet">
+
+		<link href="./images/agn/agn_icon.ico" rel="icon" type="image/x-icon">
+		<link href="./images/agn/agn_icon.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+
+	<body onload="bodyLoad()">
+		<header>
+			<nav class="navbar navbar-expand sticky-top">
+				<div class="container">
+					<a class="navbar-brand" href="/">
+						<img src="./images/agn/agn_logo.png" width="180" />
+					</a>
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item ms-auto">
+							<a class="nav-link" href="./page/about.html">Sobre</a>
+						</li>
+						<li class="nav-item ms-auto">
+							<a class="btn btn-dark ms-1" href="./page/sign_in.html">Entrar</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container inicio">
+			<h1>Entenda melhor o jogo, tendo em conta as reviews existentes</h1>
+			<input id="searchInput" class="search-bar" type="text" placeholder="Introduza o nome do jogo" oninput="search()">
+			<div id="lista"></div>
+		</div>
+
+		<div class="container novidades">
+			<h3 class="mt-5 mb-3">Últimas novidades</h3>
+
+			<div class="carrossel mt-4">
+				<a href="./page/game/cs2.html">
+					<img class="slider img-fluid" src="./images/games/banners/cs2.jpg" alt="CS2" />
+				</a>
+				<a href="./page/game/dayz.html">
+					<img class="slider img-fluid" src="./images/games/banners/dayz.jpg" alt="DayZ" />
+				</a>
+				<a href="./page/game/overwatch2.html">
+					<img class="slider img-fluid" src="./images/games/banners/overwatch2.jpg" alt="Overwatch 2" />
+				</a>
+				<a href="./page/game/propnight.html">
+					<img class="slider img-fluid" src="./images/games/banners/propnight.jpg" alt="Propnight" />
+				</a>
+				<a href="./page/game/f1_22.html">
+					<img class="slider img-fluid" src="./images/games/banners/f1_22.jpg" alt="F1 22" />
+				</a>
+				<a href="./page/game/lol.html">
+					<img class="slider img-fluid" src="./images/games/banners/lol.jpg" alt="League of Legends" />
+				</a>
+				<a href="./page/game/sus.html">
+					<img class="slider img-fluid" src="./images/games/banners/amongus.jpg" alt="Among Us" />
+				</a>
+			</div>
+		</div>
+
+		<div class="container reviews">
+			<h3>Últimas reviews</h3>
+			<div class="row">
+				<div class="col-md box">
+					<h2>4.3 / 5.0</h2>
+					<h4>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</h4>
+					<img class="dayz" src="./images/games/logos/dayz.png" alt="icon">
+					<h3>DayZ</h3>
+					<p>DayZ é um bom jogo para aqueles que procuram uma experiência desafiadora de sobrevivência e estão
+						dispostos a investir tempo e esforço para progredir no jogo. No entanto, os bugs e glitches do jogo,
+						bem como a sua curva de aprendizagem acentuada, podem ser barreiras significativas para alguns
+						jogadores.</p>
+					<p>Paulo, maio de 2023</p>
+				</div>
+				<div class="col-md box">
+					<h2>4.6 / 5.0</h2>
+					<h4>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star fa-star-half-full"></span>
+					</h4>
+					<img class="cs2" src="./images/games/logos/cs2.png" alt="icon">
+					<h3>Counter-Strike 2</h3>
+					<p>Excelente jogo para aqueles que procuram uma experiência competitiva de tiro em primeira pessoa. Com
+						uma grande variedade de mapas, modos de jogo e armas disponíveis. No entanto, a sua comunidade às
+						vezes pode ser tóxica e hostil, o que pode tornar a jogabilidade menos agradável para alguns
+						jogadores.</p>
+					<p>Paulo, maio de 2023</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md box">
+					<h2>3.4 / 5.0</h2>
+					<h4>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+					</h4>
+					<img src="./images/games/logos/overwatch-logo.png" alt="icon">
+					<h3>Overwatch 2</h3>
+					<p>Overwatch 2 é um excelente jogo para aqueles que procuram uma experiência de tiro em equipe baseada
+						em habilidades com uma grande variedade de personagens. A comunidade pode ser tóxica e hostil em
+						algumas situações, o que pode tornar a experiência menos agradável.</p>
+					<p>Paulo, maio de 2023</p>
+				</div>
+				<div class="col-md box">
+					<h2>3.0 / 5.0</h2>
+					<h4>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+					</h4>
+					<img src="./images/games/logos/propnight_icon.jpg" alt="icon">
+					<h3>Propnight</h3>
+					<p>Propnight é um jogo divertido e único para aqueles que procuram uma experiência diferente de jogo
+						multiplayer. Os Props escondem-se dos Caçadores, enquanto os Caçadores tentam encontrar e eliminar
+						todos os Props antes do tempo acabar. No entanto, a jogabilidade pode ser um bocado suja o que não
+						agradável para alguns jogadores.</p>
+					<p>Paulo, maio de 2023</p>
+				</div>
+			</div>
+			<div class="row">
+				<a class="btn btn-dark m-1" id="ver-todos" href="./page/ultimas_reviews.html">Ver todas</a>
+			</div>
+		</div>
+
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<p class="col-md-4 mb-0 text-muted">© 2023 AGN - Aveiro Gaming Network</p>
+
+				<a href="/"
+					class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+					<img src="./images/agn/agn_logo.png" width="90" />
+				</a>
+
+				<ul class="nav col-md-4 justify-content-end">
+					<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+					<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
+				</ul>
+			</footer>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+		<script src="./js/index.js"></script>
+	</body>
+
+</html>

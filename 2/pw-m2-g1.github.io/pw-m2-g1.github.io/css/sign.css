@@ -1,0 +1,116 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.containers {
+    height: 33rem;
+    align-content: center;
+    position: center center;
+}
+
+
+.card {
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 450px;
+    background-color: transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #5252ff;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #5252ff !important;
+}
+
+.card-header h3 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #5252ff;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #5252ff;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: blue;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.fa-key {
+    color: black;
+}
+
+.fa-user {
+    color: black;
+}
+
+footer {
+    margin-bottom: 1000px;
+}
+
+.register-button a {
+    color: black;
+    text-decoration: none;
+    transition: .15s ease-in-out;
+}
+
+.register-button:hover a {
+    color: white;
+    transition: .15s ease-in-out;
+}

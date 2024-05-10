@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html,
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.carrossel {
+    margin-top: 20px;
+    box-shadow: 10px;
+}
+
+.slider {
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+.slider:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+.box {
+    position: relative;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: none;
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    margin: 0 1rem 1rem 0;
+}
+
+.box img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa-star-half-full {
+    color: orange;
+}
+
+.checked {
+    color: orange;
+}

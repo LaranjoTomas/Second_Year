@@ -1,0 +1,41 @@
+
+Alínea 1) ----------------------------------
+
+Client: The best (Aveiro)
+Client: Team mates (Coimbra)
+Client: Cool bunch (Viseu)
+
+
+Event: The best (Aveiro) 2022-06-24
+Sport: KAYAK (12)
+FULL_MENU for 10participants
+
+Event: Team mates (Coimbra) 2022-06-30
+LIGHT_BITES for 20participants
+Culture: ARCHITECTURAL_TOUR (10)
+Culture: RIVER_TOUR (10)
+
+Event: Cool bunch (Viseu) 2022-06-25
+DRINKS_AND_SNACKS for 20participants
+Culture: ART_MUSEUM (20)
+
+Event: The best (Aveiro) 2022-07-10
+Sport: HIKING (15)
+Culture: WINE_TASTING (20)
+
+
+
+Alínea 2) ----------------------------------
+
+EventManager@17a7cec2: CLIENTES COM EVENTOS
+
+EventManager@17a7cec2: LISTA DE PRÓXIMOS EVENTOS ORDENADOS POR DATA
+Event: # Tudo Bons Rapazes (Ã?gueda) 2022-07-22
+
+Event: # Malta da Ria (Aveiro) 2022-07-01
+
+Event: # Arrisca Tudo (Costa Nova) 2022-07-13
+
+Event: # RÃ©gua e Esquadro (Espinho) 2022-07-11
+
+

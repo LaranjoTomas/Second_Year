@@ -1,0 +1,7 @@
+Movies with score 60 or higher of the gender chosen are:
+Titlo:Intolerable Cruelty, duration: 100, genre: comedy, title: Intolerable Cruelty, Genro: comedy.
+
+Titlo:Deliver Us From Eva, duration: 105, genre: comedy, title: Deliver Us From Eva, Genro: comedy.
+
+Titlo:Matchstick Men, duration: 116, genre: comedy, title: Matchstick Men, Genro: comedy.
+

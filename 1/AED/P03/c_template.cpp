@@ -1,0 +1,109 @@
+//
+// Tomás Oliveira e Silva, AED, October 2021
+//
+// example of a generic class (with a template)
+//
+
+#include <iostream>
+
+using namespace std;
+
+//
+// warning: this code is just an example of how an integer parameter can appear in a class template
+//          this is NOT a good way to define the maximum size of a stack!
+//          it is FAR better to put max_size as a parameter (with a default value)
+//          on the constructor member function of the stack class (do that as a homework exercise)
+//          homework: to this!
+//
+
+template <typename T,int max_size>
+class stack
+{
+  private:
+    T d_data[max_size];
+    int d_size;
+  public:
+    stack(void)
+    { // constructor
+      d_size = 0;
+    }
+    ~stack(void)
+    { // destructor
+      if(d_size > 0)
+        cerr << "warning: the stack being destroyed is not empty" << endl;
+    }
+    void push(T v)
+    { // put a thing in the stack
+      if(d_size >= max_size)
+        cerr << "push error: the stack is full" << endl; // nice place to throw an exception!
+      else
+        d_data[d_size++] = v;
+    }
+    void put(T v)
+    { // same as push
+      push(v);
+    }
+    T pop(void)
+    { // get and remove a thing from the too of the stack (last in, first out!)
+      T v;
+
+      if(d_size <= 0)
+      {
+        cerr << "pop error: the stack is empty" << endl; // nice place to throw an exception!
+        v = T(0); // this assumes that the compiler knows how to convert an integer to type T
+      }
+      else
+        v = d_data[--d_size];
+      return v;
+    }
+    T get(void)
+    { // same as pop
+      return pop();
+    }
+    T top(void)
+    { // get a thing from the top of the stack
+      T v;
+
+      if(d_size <= 0)
+      {
+        cerr << "top error: the stack is empty" << endl; // nice place to throw an exception!
+        v = T(0); // this assumes that the compiler knows how to convert an integer to type T
+      }
+      else
+        v = d_data[d_size - 1];
+      return v;
+    }
+};
+
+int main(void)
+{
+  stack<int,10> s; // a stack capable of holding 10 integers
+  stack<char,10> t; // a stack capable of holding 10 strings
+  stack<float,10> u; // a stack capable of holding 10 floats
+
+  cout << "push: 3" << endl;
+  s.push(3);
+  cout << "push: 7" << endl;
+  s.push(7);
+  cout << "pop: " << s.pop() << endl; // should print 7
+  cout << "top: " << s.top() << endl; // should print 3
+  cout << "pop: " << s.pop() << endl; // should print 3
+  
+  cout << "push: 'a'" << endl;
+  t.push('a');
+  cout << "push: 'b'" << endl;
+  t.push('b');
+  cout << "pop: " << t.pop() << endl; // should print 'b'
+  cout << "top: " << t.top() << endl; // should print 'a'
+  cout << "pop: " << t.pop() << endl; // should print 'a'
+
+  cout << "push: 3.14" << endl;
+  u.push(3.14);
+  cout << "push: 2.71" << endl;
+  u.push(2.71);
+  cout << "pop: " << u.pop() << endl; // should print 2.71
+  cout << "top: " << u.top() << endl; // should print 3.14
+  cout << "pop: " << u.pop() << endl; // should print 3.14
+  
+  return 0;
+}

@@ -1,0 +1,24 @@
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #008c8a;
+}
+table {
+    border: 1px solid black;
+    border-spacing: 2px;
+    border-style: dotted;
+    border-collapse: 2px;
+    border-color : red;
+}
+
+table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.Names {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: red;
+    background-color: #008c8a;
+}

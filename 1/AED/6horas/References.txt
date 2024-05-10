@@ -1,0 +1,12 @@
+C Reference
+    https://en.cppreference.com/w/c
+
+C Tutorial - tutorialspoint
+
+    https://www.tutorialspoint.com/learnc by examples/index.htm
+
+C Tutorial - W3 Schools
+    https://www.w3schools.com/c/index.php
+
+C coding tutor
+    https://pythontutor.com/c.html#mode=edit

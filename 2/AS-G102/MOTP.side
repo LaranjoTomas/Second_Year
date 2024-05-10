@@ -1,0 +1,1363 @@
+{
+  "id": "c00d8f5a-82a2-4ec1-a6fe-31fc39f1943e",
+  "version": "2.0",
+  "name": "MOTP",
+  "url": "https://laranjotomas.github.io/IPhone14PRO-2/i-phone1-pro2.html",
+  "tests": [{
+    "id": "80a9789e-7f43-448c-8aba-eee1f4a3ec52",
+    "name": "Sara",
+    "commands": [{
+      "id": "bf95bd3d-e21e-49f9-a447-560ddbc96eb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c43530a5-f15f-406c-847f-480edb5bf49a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e01eb875-79c8-4dea-a3d5-167ab1c6719a",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf1428b3-d2a5-4e53-974e-14948e757e1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "78d2dbe5-0ae5-4ef7-94a9-721e6c0c7b7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-input",
+      "targets": [
+        ["id=email-input", "id"],
+        ["css=#email-input", "css:finder"],
+        ["xpath=//input[@id='email-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "admin123@gmail.com"
+    }, {
+      "id": "0c6c1ef0-06a4-474f-84a7-78ea06a8693c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[3]/span/span/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "bedfff4d-8327-4a43-be6c-10c0cf414bf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro1-text12 > span",
+      "targets": [
+        ["css=.i-phone1-pro1-text12 > span", "css:finder"],
+        ["xpath=//a[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "366e2029-72fb-495b-baf6-c43328a35912",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b52258af-2125-47af-bab2-108da98ae9ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "f4db3950-3ab9-4d6f-b664-340c142932f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "3f7bab24-0041-4440-8143-0ee9aee95b6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e534b7ff-822f-4404-a09a-6a6b1c8dac2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f60ffb5-474e-4a02-b333-79581fc3a473",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ar"
+    }, {
+      "id": "5c38898a-56f2-4c77-8b13-23955b5c407b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listItem:nth-child(2) > .listItemText",
+      "targets": [
+        ["css=.listItem:nth-child(2) > .listItemText", "css:finder"],
+        ["xpath=//div[@id='lista']/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Artic Monkeys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36669df-18c9-4c0c-9450-dac08352ea23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro4-shoppingcartadd1",
+      "targets": [
+        ["css=.i-phone1-pro4-shoppingcartadd1", "css:finder"],
+        ["xpath=//img[@alt='shoppingcartadd11552']", "xpath:img"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df4235cb-5af2-4252-882e-6f8666ac53ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro8-text27 > span",
+      "targets": [
+        ["css=.i-phone1-pro8-text27 > span", "css:finder"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "743dacbb-7c9f-44cf-9c9c-2ff67b13bfdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro9-text10 > span",
+      "targets": [
+        ["css=.i-phone1-pro9-text10 > span", "css:finder"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a0d87f-71dc-42e2-b3f7-dfc0d4c53e94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro10-text11 > span",
+      "targets": [
+        ["css=.i-phone1-pro10-text11 > span", "css:finder"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "227c0fed-422f-41a8-84b4-a402c5465a98",
+    "name": "Manuel",
+    "commands": [{
+      "id": "b1a40a29-a275-4c4d-901d-6610afe4bb30",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0e5bcb9-bb09-4093-9ab1-11e663aa7614",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65a49745-8af7-4d56-ab79-2a5a4063bfbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro1-text14",
+      "targets": [
+        ["css=.i-phone1-pro1-text14", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6548dcf-67d9-400d-951d-6ec6e4d42555",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac2fc22-fda2-4328-9e59-2a481184cb56",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Manuel"
+    }, {
+      "id": "106d72dc-b7fd-4985-a461-eefbc640c6bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ManuelSilva"
+    }, {
+      "id": "548ea91a-51db-4cfe-b117-030c8af028ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "ManuelSilva"
+    }, {
+      "id": "2984fcc1-c244-4981-8377-be546a429049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-f23b259ec77e9dc83ffd2f41deb059e61",
+      "targets": [
+        ["css=.i-phone1-pro2-f23b259ec77e9dc83ffd2f41deb059e61", "css:finder"],
+        ["xpath=//img[@alt='f23b259ec77e9dc83ffd2f41deb059e611552']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93fc4c59-0a48-4311-863c-181f657c8ebe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-group1262",
+      "targets": [
+        ["css=.i-phone1-pro2-group1262", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36d1489-c60a-4f3d-a81f-cee363317902",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8c8d88-0aab-4f07-b2ca-19bb50c0159a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-text12 > span",
+      "targets": [
+        ["css=.i-phone1-pro5-text12 > span", "css:finder"],
+        ["xpath=//a[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e42164f2-2c68-4bc5-bed0-e109a8971fc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .image-button", "css:finder"],
+        ["xpath=//button[@onclick='toggleTextBox()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d74058b4-8073-48cf-8aa9-b54e18d4ea54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .image-button", "css:finder"],
+        ["xpath=//button[@onclick='toggleTextBox()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dbe9a71-fc1c-4df7-b948-7b0545d2d6ff",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.i-phone1-pro7-editbtn .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .image-button", "css:finder"],
+        ["xpath=//button[@onclick='toggleTextBox()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f858cb-2838-49ff-88f6-7ca4afb926a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-text02 > span",
+      "targets": [
+        ["css=.i-phone1-pro7-text02 > span", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b471bc4-0ca4-4b4d-8e2a-93a924986519",
+      "comment": "",
+      "command": "click",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5815f8-dbdf-45d8-9201-a28eb19f713f",
+      "comment": "",
+      "command": "type",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Gira discos de vinil"
+    }, {
+      "id": "c0b1f08e-25e0-4f33-a49e-fce6e26c50b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn .close-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .close-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ce7080-a463-4c41-8563-2e94afd46874",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-image4211763removebgpreview1",
+      "targets": [
+        ["css=.i-phone1-pro7-image4211763removebgpreview1", "css:finder"],
+        ["xpath=//img[@alt='IMAGE4211763removebgpreview11552']", "xpath:img"],
+        ["xpath=//body/div/div/div/a[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f9e6d4c-743e-41a9-8f46-844972e5ef8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro6-ellipse50",
+      "targets": [
+        ["css=.i-phone1-pro6-ellipse50", "css:finder"],
+        ["xpath=//img[@alt='Ellipse501552']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac1fd4f-017e-46c5-b400-31fbbe3a558e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn3 .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn3 .image-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[7]", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6962d957-9a1c-4d9f-bbb5-b44b266ec118",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn3 .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn3 .image-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[7]", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0fd632-2672-4bf8-bf77-1ec90ad66763",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-text02",
+      "targets": [
+        ["css=.i-phone1-pro7-text02", "css:finder"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b809db5b-8b2a-4c5b-830a-fe675c67ce2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22346b0-6588-4644-9c63-273d043770cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "99,99€\\n"
+    }, {
+      "id": "76a3da5b-7e96-45e1-9abe-489c71ebd5f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn .close-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .close-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6685042-702e-4b33-87b6-8d6fd61149a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn2 .image-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn2 .image-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[5]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f984417e-2346-47e2-a2da-48e6641fc313",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-text02",
+      "targets": [
+        ["css=.i-phone1-pro7-text02", "css:finder"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8afa86-ca81-4bef-901b-9e5f654671ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ac1bfd-d4cc-4116-a7b7-41b5ee806b1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=myTextBox",
+      "targets": [
+        ["id=myTextBox", "id"],
+        ["css=.i-phone1-pro7-editbtn #myTextBox", "css:finder"],
+        ["xpath=//textarea[@id='myTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bom estado, com pouco uso"
+    }, {
+      "id": "8ab45c09-9b7e-4f86-bd88-034ced90bdca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-editbtn .close-button",
+      "targets": [
+        ["css=.i-phone1-pro7-editbtn .close-button", "css:finder"],
+        ["xpath=(//button[@onclick='toggleTextBox()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textBoxContainer']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "614f888c-8f1d-409c-9215-d32a12f62f21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro7-rectangle3",
+      "targets": [
+        ["css=.i-phone1-pro7-rectangle3", "css:finder"],
+        ["xpath=//img[@alt='Rectangle31552']", "xpath:img"],
+        ["xpath=//body/div/div/div/a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8293c743-8876-471a-98c1-8f100aa29450",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-text18 > span",
+      "targets": [
+        ["css=.i-phone1-pro5-text18 > span", "css:finder"],
+        ["xpath=//a[4]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81efb666-355e-4e73-b7e1-002db0ff545d",
+    "name": "SavedItems",
+    "commands": [{
+      "id": "5bffd10c-db6e-4497-be72-cd22c50d06e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9274ed1-232e-48af-9426-3356fe7e8519",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab200476-6538-47a7-9243-83694db75179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro1-text14",
+      "targets": [
+        ["css=.i-phone1-pro1-text14", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b01030e3-250a-4de6-9f67-b7d054d056dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-group126",
+      "targets": [
+        ["css=.i-phone1-pro2-group126", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fbb9e9b-8086-4eeb-80b7-5c9d344db2ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a8b292-d526-4922-9b3c-831f44b6d1bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "495e01dc-5116-4344-b141-1de77edf9415",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123"
+    }, {
+      "id": "af4f05f9-316b-458b-90a7-d935b3e269c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-group1262",
+      "targets": [
+        ["css=.i-phone1-pro2-group1262", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a762f82f-1711-4c79-8c30-7aea8d3f03b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83eff299-c09b-496e-ac63-0e2659175409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-text20 > span",
+      "targets": [
+        ["css=.i-phone1-pro5-text20 > span", "css:finder"],
+        ["xpath=//a[5]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8e8273b-fc20-4aed-9e8f-87fad82de692",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro12-arctic-monkeys-liveatthe-royal-albert-hall03e803e813529",
+      "targets": [
+        ["css=.i-phone1-pro12-arctic-monkeys-liveatthe-royal-albert-hall03e803e813529", "css:finder"],
+        ["xpath=//img[@alt='ArcticMonkeysLiveattheRoyalAlbertHall03e803e8135291552']", "xpath:img"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa8d18fa-fafe-4539-9ae3-f4aeb04b5fdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro4-shoppingcartadd1",
+      "targets": [
+        ["css=.i-phone1-pro4-shoppingcartadd1", "css:finder"],
+        ["xpath=//img[@alt='shoppingcartadd11552']", "xpath:img"],
+        ["xpath=//body/div/div/div/a[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16f81ca2-1305-4bb1-aec6-f4227d67de8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro8-text27 > span",
+      "targets": [
+        ["css=.i-phone1-pro8-text27 > span", "css:finder"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8b52d07-1f1f-4641-ae30-1090c6ab7133",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro9-paypal1",
+      "targets": [
+        ["css=.i-phone1-pro9-paypal1", "css:finder"],
+        ["xpath=//img[@alt='paypal11552']", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434ada5a-c8c3-4cc9-af68-9a65ef3df9a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cbc826-5ee6-477a-b653-953ddc263293",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'PayPal Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7418fe45-8bc5-4b92-9307-cddcb8851a4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d66d91fa-09a3-46af-8069-b7c0a9912234",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "36bb2ca1-37ac-4ac6-864d-ab79636bd188",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Admin123@gmail.com"
+    }, {
+      "id": "c6344a3b-7e48-464a-9dcd-0d5130575853",
+      "comment": "",
+      "command": "type",
+      "target": "id=card",
+      "targets": [
+        ["id=card", "id"],
+        ["name=card", "name"],
+        ["css=#card", "css:finder"],
+        ["xpath=//input[@id='card']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1234-1234-1234-1234"
+    }, {
+      "id": "ef92db26-07cb-4da8-955e-6b05c9373ec7",
+      "comment": "",
+      "command": "type",
+      "target": "id=expiry",
+      "targets": [
+        ["id=expiry", "id"],
+        ["name=expiry", "name"],
+        ["css=#expiry", "css:finder"],
+        ["xpath=//input[@id='expiry']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "12/25"
+    }, {
+      "id": "2e39bb2e-55d0-44de-95c9-e617f0156a17",
+      "comment": "",
+      "command": "type",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["name=cvv", "name"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "868"
+    }, {
+      "id": "0e9ba321-5afd-4c5e-8215-2b4b1ed91524",
+      "comment": "",
+      "command": "click",
+      "target": "css=.purchase-button",
+      "targets": [
+        ["css=.purchase-button", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "225c7895-33df-47c7-bad9-0eafd6e6d217",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Purchase",
+      "targets": [
+        ["linkText=Purchase", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Purchase')]", "xpath:link"],
+        ["xpath=//a[contains(@href, './IPhone14PRO-10/i-phone1-pro10.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "417d12e2-f0a5-47d8-8cc4-c9e1194b28b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro10-text11 > span",
+      "targets": [
+        ["css=.i-phone1-pro10-text11 > span", "css:finder"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3657590a-7a06-41d5-9f4e-0ca65e38655b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b135b4-33bb-4e9e-9757-270c6dc28421",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-group8754",
+      "targets": [
+        ["css=.i-phone1-pro5-group8754", "css:finder"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "29b9e1e8-d085-440e-bee4-349eee3485bd",
+    "name": "VerNotificações",
+    "commands": [{
+      "id": "ab925e77-b26e-4cea-86d9-64e5bb4b49f4",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "992e8193-f952-486f-85fe-3edab6295658",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65e5ea0b-e850-4aef-b9d3-ba9c9120eb9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro1-text14",
+      "targets": [
+        ["css=.i-phone1-pro1-text14", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42f86e5d-0c33-4354-aee6-1bcbd4efee5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9685e64d-2687-4861-a8eb-824a87d66a75",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "d0a991b7-a6f7-4e0b-b61b-d09b94d5053a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123"
+    }, {
+      "id": "26ef6a6f-ea1d-4d60-bef7-1e602309a1eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "286620ba-8bb8-4f97-9668-db9ab940e1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d70c38d5-e883-477e-bc33-9dbc3e879eff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-text04 > span",
+      "targets": [
+        ["css=.i-phone1-pro5-text04 > span", "css:finder"],
+        ["xpath=//a[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be1a2231-41ce-4211-b0fe-a4ade972b8bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro12-vector",
+      "targets": [
+        ["css=.i-phone1-pro12-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc534fe-38fa-4028-a5b3-68d3877c0d9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-group8754",
+      "targets": [
+        ["css=.i-phone1-pro5-group8754", "css:finder"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44bf6a6-d6c5-43c7-96a9-5cf5361f497f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "927427e8-fca4-4488-ac0c-04ff34d43184",
+    "name": "Sing up",
+    "commands": [{
+      "id": "a6e2cc12-ef30-4379-836d-581180bda85b",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb9bcd95-3488-472a-9a95-e2699bb6f3f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "580331a3-8f47-4f74-8001-849e299f85c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e89c1227-f39e-4e73-a7d9-a226b6d2e4e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "e513b549-0dcb-4c14-89ad-6d0f474a6418",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-input",
+      "targets": [
+        ["id=email-input", "id"],
+        ["css=#email-input", "css:finder"],
+        ["xpath=//input[@id='email-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123@gmail.com"
+    }, {
+      "id": "f538a876-09df-4515-99fb-80990c691050",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[3]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123"
+    }, {
+      "id": "33a36271-0220-47e0-8bb7-71adad5663eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro1-text10 > span",
+      "targets": [
+        ["css=.i-phone1-pro1-text10 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a5361bc-fc57-4a07-b02c-29e4aaa5fad0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5aa9b91-c3c2-4823-b588-343d08ee9372",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-text18 > span",
+      "targets": [
+        ["css=.i-phone1-pro5-text18 > span", "css:finder"],
+        ["xpath=//a[5]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8a43785-3c6c-4447-b91c-67f8658b8fd2",
+    "name": "Log in",
+    "commands": [{
+      "id": "b01dcc02-ba1a-4507-94ca-a77f9048c40b",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/IPhone14PRO-2/i-phone1-pro2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02df075-fadb-4346-8b64-669828dde2a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7cb0a9-ab17-446c-a01a-cbe89233cb42",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984742dd-a28d-4dc6-a4de-2047b6282c48",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "c99eea0a-6e0b-4dc9-9b2c-f4953e6fe197",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123"
+    }, {
+      "id": "7c88ec88-7dee-4bd8-a0c4-05a2b10f6e04",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": "43.02496337890625,13"
+    }, {
+      "id": "d23804d3-f9a0-455b-b026-c44eeba693d0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": "43.02496337890625,13"
+    }, {
+      "id": "652b6aaf-a13d-44b5-943b-da19f6345ed7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": "43.02496337890625,13"
+    }, {
+      "id": "6ea3f61b-513f-4118-81a2-a106d54b98fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-text08 > span",
+      "targets": [
+        ["css=.i-phone1-pro2-text08 > span", "css:finder"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f81f4e1b-3da9-41c3-b557-b216b03bfad8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-vector",
+      "targets": [
+        ["css=.i-phone1-pro3-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f2333d-3e2d-4deb-841e-093bf592c0e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-group8754",
+      "targets": [
+        ["css=.i-phone1-pro5-group8754", "css:finder"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a2c8733f-1b13-4f76-86b1-9f2c50b57ff4",
+    "name": "Audio_Test",
+    "commands": [{
+      "id": "c87ecf94-349e-471d-bcdc-2866454ad69d",
+      "comment": "",
+      "command": "open",
+      "target": "https://laranjotomas.github.io/IPhone14PRO-2/i-phone1-pro2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b82d06c5-fdeb-47a4-887c-5a8d885dc91a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed8763ef-2235-4d5d-9daf-f9ac8441fb44",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0adc2ab-dd67-47da-ad5f-bb1c1152e7f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "90f6fadc-189d-4d19-9d54-9408e42cf949",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[2]/span/span/input", "xpath:position"]
+      ],
+      "value": "Admin123"
+    }, {
+      "id": "092a652a-1b34-4e2f-8c74-396e5667ab0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro2-group1262",
+      "targets": [
+        ["css=.i-phone1-pro2-group1262", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8151c392-6e2c-4ea5-b8e0-d591fa7c8aea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro3-arctic-monkeys-liveatthe-royal-albert-hall03e803e813529",
+      "targets": [
+        ["css=.i-phone1-pro3-arctic-monkeys-liveatthe-royal-albert-hall03e803e813529", "css:finder"],
+        ["xpath=//img[@alt='ArcticMonkeysLiveattheRoyalAlbertHall03e803e8135291552']", "xpath:img"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c0dc164-443d-484d-90de-cc0b65234d2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=playButton",
+      "targets": [
+        ["id=playButton", "id"],
+        ["css=#playButton", "css:finder"],
+        ["xpath=//img[@id='playButton']", "xpath:attributes"],
+        ["xpath=//img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a66a677-02d4-4950-aea8-9512ede6c189",
+      "comment": "",
+      "command": "click",
+      "target": "id=playButton",
+      "targets": [
+        ["id=playButton", "id"],
+        ["css=#playButton", "css:finder"],
+        ["xpath=//img[@id='playButton']", "xpath:attributes"],
+        ["xpath=//img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a36743d-9fc3-4034-a640-1b48a2e2d126",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro4-vector",
+      "targets": [
+        ["css=.i-phone1-pro4-vector", "css:finder"],
+        ["xpath=//img[@alt='Vector1552']", "xpath:img"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e29093e-ec7b-4265-b236-6d5b3d9a109b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-phone1-pro5-group8754",
+      "targets": [
+        ["css=.i-phone1-pro5-group8754", "css:finder"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f6569b-732f-4756-81e1-a2c15e8cfaa1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "309fd01f-5fc5-4ab4-bfe5-813a8076f5cf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://laranjotomas.github.io/", "https://laranjotomas.github.io/index.html", "https://laranjotomas.github.io/index", "https://laranjotomas.github.io/IPhone14PRO-2/i-phone1-pro2.html"],
+  "plugins": []
+}
